@@ -1,3 +1,4 @@
 dataset/
 *.zip
 *.pth
+!improved_trained_resnet_model_15.pth
