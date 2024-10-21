@@ -121,7 +121,7 @@ scheduler = StepLR(optimizer, step_size=7, gamma=0.1)
 
 # El modelo se entrena por 15 épocas, actualizando los pesos y ajustando la tasa de aprendizaje.
 # Evaluación del modelo
-epochs = 15
+epochs = 30
 
 for epoch in range(epochs):
     model.train()
