@@ -32,7 +32,7 @@ transform = transforms.Compose([
 ])
 
 # Lista de nombres de las clases
-class_names = ['person1', 'person2', 'person3', 'person4', 'person5', 'person6']  # Ajusta los nombres
+class_names = ['estrellita', 'gerald', 'helen', 'jhon', 'julio', 'roberto'] 
 
 # Función para predecir una imagen desde archivo
 def predict_image(image_path):
